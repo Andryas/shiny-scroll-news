@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 31px;
+}
+
+menu,
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.item h5 {
+    margin: 0 0 10px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.item p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.quadrant {
+    border: 1px solid black;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartesian-grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.cartesian-grid .col-6 {
+    padding: 0;
+}
+
+.bslib-sidebar-layout {
+    border: unset;
+}
