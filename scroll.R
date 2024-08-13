@@ -3,6 +3,9 @@ scroll_ui <- function(id) {
     ns <- shiny::NS(id)
 
     shiny::tagList(
+        shiny::tags$head(
+            shiny::tags$link(rel = 'stylesheet', type = 'text/css', href = 'styles.css')
+        ),
         shiny::column(
             12,
             align = "center",
